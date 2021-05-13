@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn
+{
+    border-radius: 50px !important;
+    box-shadow: 0px 0px 10px black;
+}
+h3, h4
+{
+    font-weight: bold;
+}
+
+
+.navbar{
+    padding: 25px 0 !important;
+    font-size: 20px;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+.top-nav-collapse{
+    background-color: black;
+    padding: 0.75rem !important;
+}
+
+.navbar-nav
+{
+display: flex;
+}
+.navbar-nav .nav-item a
+{
+   align-items: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Landing page */
+.landing-div
+{
+    background: white url("../../images/bg-image.jpg") no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+.landing-wrapper
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+.carousel-item h2
+{
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.tour_image
+{
+    border-radius: 20px;
+    box-shadow: 0px 15px 15px black;
+}
+
+/* Destination Card */
+.dest_card
+{
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.dest-card-img
+{
+    border-radius: 10px;
+    position: relative;
+}
+.dest-card-title
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.dest-card-info h4{
+    margin-bottom: 0;
+}
+.dest-card-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: coral;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 0 50px 50px 0;
+    width: 45%;
+    transition: all 0.5s;
+    text-align: right;
+}
+.dest_card:hover .dest-card-info{
+    width: 60%;
+    background-color: orangered;
+}
+
+
+/* Tours Information section */
+.inf_card
+{
+border-radius: 5px;
+box-shadow: 0px 5px 10px black;
+}
+
+.card_p
+{
+    position: relative;
+}
+.price
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0,250,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* footer */
+
+.main_footer
+{
+    background: white url("../../images/footer-image.jpg") no-repeat scroll center;
+    background-size: cover;
+    color: white;
+}
+.footer_wrapper
+{
+    background-color: rgba(0,0,0,0.7);
+}
+
